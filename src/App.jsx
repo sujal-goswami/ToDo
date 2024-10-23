@@ -74,7 +74,7 @@ function App() {
     <TodoProvider
       value={{ todos, addTodo, updateTodo, deleteTodo, toggleComplete }}
     >
-      <div className={`w-full ${themeMode == 'dark' ? 'bg-[#172842]' : 'bg-[#54C392]'}`}>
+      <div className={`w-full h-screen ${themeMode == 'dark' ? 'bg-[#172842]' : 'bg-[#54C392]'}`}>
         <div className="flex justify-end px-5">
           <button
             onClick={toggleDarkMode}
