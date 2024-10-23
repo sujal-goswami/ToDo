@@ -1,4 +1,9 @@
-# React + Vite
+
+# ToDo
+
+<div align="center">
+    <kbd><img src="https://github.com/sujal-goswami/ToDo/blob/main/DEMO.gif"></kbd>
+</div>
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
