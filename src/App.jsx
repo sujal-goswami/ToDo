@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react'
 import {TodoProvider} from './contexts'
-import './App.css'
 import TodoForm from './components/TodoForm'
 import TodoItem from './components/TodoItem'
 import useTheme from './contexts/ThemeContext'
@@ -75,7 +74,7 @@ function App() {
     <TodoProvider
       value={{ todos, addTodo, updateTodo, deleteTodo, toggleComplete }}
     >
-      <div className={themeMode == 'dark' ? 'bg-[#172842]' : 'bg-[#54C392]'}>
+      <div className={`w-full ${themeMode == 'dark' ? 'bg-[#172842]' : 'bg-[#54C392]'}`}>
         <div className="flex justify-end px-5">
           <button
             onClick={toggleDarkMode}
